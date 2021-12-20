@@ -1,14 +1,14 @@
 /* Color guide
 Check https://coolors.co/0081a7-00afb9-fdfcdc-fed9b7-f07167 for more info
-Dark Blue : #0081A7
-Light Blue : #00AFB9
-Yellow : #FDFCDC
-Light Orange : #FED9B7
-Dark Orange : #F07167
+Dark Blue : #0081a7
+Light Blue : #00afb9
+Yellow : #fdfcdc
+Light Orange : #fed9b7
+Dark Orange : #f07167
 */
 
 body {
-  background-color: #0081A7;
+  background-color: #0081a7;
 }
 
 nav {
@@ -20,9 +20,9 @@ nav {
 a {
   text-decoration: none;
   font-size: 1.3em;
-  color: #FED9B7;
+  color: #fed9b7;
 }
 
 a:hover {
-  color: #F07167;
+  color: #f07167;
 }
