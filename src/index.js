@@ -8,7 +8,6 @@ function component() {
   element.innerHTML = _.join(['Hello', 'webpack'], ' ');
   element.classList.add('hello');
 
-
   return element;
 }
 
