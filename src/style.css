@@ -9,6 +9,7 @@ Dark Orange : #f07167
 
 body {
   background-color: #0081a7;
+  margin: 0;
 }
 
 nav {
@@ -30,4 +31,24 @@ a {
 
 a:hover {
   color: #f07167;
+}
+
+.footer {
+  background-color: #00afb9;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.credits {
+  padding-left: 2em;
+  color: #fdfcdc;
+}
+
+.footer-icon {
+  background-color: #fdfcdc;
+  color: #f07167;
+  font-size: 1.4em;
+  text-align: right;
+  padding: 0.5em 2em;
 }
