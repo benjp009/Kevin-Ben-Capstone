@@ -1,3 +1,4 @@
 import './style.css';
 
-import html from "./index.html";
+// eslint-disable-next-line no-unused-vars
+import html from './index.html';
