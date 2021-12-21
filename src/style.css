@@ -37,6 +37,51 @@ a:hover {
   color: #f07167;
 }
 
+.meals-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  color: #f07167;
+  font-size: 2em;
+}
+
+.meals-display {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.fav-meal {
+  display: flex;
+  flex-direction: column;
+  margin: 1em;
+}
+
+.meal-image {
+  width: 15em;
+  height: 15em;
+  object-fit: cover;
+}
+
+.meal-title {
+  color: #fdfcdc;
+  font-size: 1em;
+  text-align: center;
+}
+
+.meal-button {
+  background-color: #fed9b7;
+  border: 1px solid #f07167;
+  border-radius: 10px;
+  padding: 5px 0;
+  margin: 5px 20px;
+  color: #f07167;
+  font-size: 0.8em;
+}
+
 .footer {
   background-color: #00afb9;
   position: absolute;
