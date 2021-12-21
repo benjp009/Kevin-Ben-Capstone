@@ -85,6 +85,12 @@ a:hover {
   font-size: 0.8em;
 }
 
+.meal-button:hover {
+  background-color: #f07167;
+  border: 1px solid #fed9b7;
+  color: #fed9b7;
+}
+
 .footer {
   background-color: #00afb9;
   position: absolute;
