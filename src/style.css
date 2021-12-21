@@ -1,1 +1,61 @@
+/* Color guide
+Check https://coolors.co/0081a7-00afb9-fdfcdc-fed9b7-f07167 for more info
+Dark Blue : #0081a7
+Light Blue : #00afb9
+Yellow : #fdfcdc
+Light Orange : #fed9b7
+Dark Orange : #f07167
+*/
+
+/* importing font awesome */
+@import "~@fortawesome/fontawesome-free/css/fontawesome.css";
+@import "~@fortawesome/fontawesome-free/css/solid.css";
+
+/* importing font Roboto */
 @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300&family=Roboto+Slab:wght@700&display=swap');
+
+body {
+  background-color: #0081a7;
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  padding: 1em 10em 1em 10em;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.nav-logo {
+  width: 2.5em;
+}
+
+a {
+  text-decoration: none;
+  font-size: 1.3em;
+  color: #fed9b7;
+}
+
+a:hover {
+  color: #f07167;
+}
+
+.footer {
+  background-color: #00afb9;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.credits {
+  padding-left: 2em;
+  color: #fdfcdc;
+}
+
+.footer-icon {
+  background-color: #fdfcdc;
+  color: #f07167;
+  font-size: 1.4em;
+  text-align: right;
+  padding: 0.5em 2em;
+}
