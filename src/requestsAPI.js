@@ -4,7 +4,7 @@ const getCategory = async () => {
   const parsed = await response.json();
   return parsed.meals;
 };
-  
+
 const createList = async () => {
   const list = [];
   const result = await getCategory();
@@ -13,5 +13,5 @@ const createList = async () => {
   }
   return list;
 };
-  
+
 export default createList;
