@@ -8,10 +8,13 @@ const getCategory = async () => {
 const createList = async () => {
   const list = [];
   const result = await getCategory();
+
   for (let i = 0; i < 12; i += 1) {
     list.push(result[i]);
   }
+
   return list;
+  console.log(list);
 };
 
 export default createList;
