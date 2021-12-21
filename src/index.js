@@ -1,14 +1,5 @@
-import _ from 'lodash';
 import './style.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-const component = () => {
-  const element = document.createElement('div');
-
-  // Lodash, now imported by this script
-  element.innerHTML = _.join(['Hello', 'webpack'], ' ');
-  element.classList.add('hello');
-
-  return element;
-};
-
-document.body.appendChild(component());
+// eslint-disable-next-line no-unused-vars
+import html from './index.html';
