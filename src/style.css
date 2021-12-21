@@ -7,6 +7,10 @@ Light Orange : #fed9b7
 Dark Orange : #f07167
 */
 
+/* importing font awesome */
+@import "~@fortawesome/fontawesome-free/css/fontawesome.css";
+@import "~@fortawesome/fontawesome-free/css/solid.css";
+
 body {
   background-color: #0081a7;
   margin: 0;
