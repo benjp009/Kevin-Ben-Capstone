@@ -3,10 +3,12 @@ import fetchDataApi from './fetchdata.js';
 
 const itemList = [];
 
+// We need to fix this so we call the API and transform them into an array.
 itemList.push(fetchDataApi());
-
 const itemParsed = JSON.parse(itemList);
 
+
+// This part of the code is working - we should not touch it
 for (let i = 0; i < itemParsed.length; i ++) {
   document.getElementById('homepageList').innerHTML += `
   <div class='fav-meal'>
