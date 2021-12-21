@@ -1,7 +1,7 @@
 import _ from 'lodash';
 import './style.css';
 
-let component = () => {
+const component = () => {
   const element = document.createElement('div');
 
   // Lodash, now imported by this script
@@ -9,6 +9,6 @@ let component = () => {
   element.classList.add('hello');
 
   return element;
-}
+};
 
 document.body.appendChild(component());
