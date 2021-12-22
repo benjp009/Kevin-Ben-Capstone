@@ -3,6 +3,7 @@ import createList from './homePageRequest.js';
 // const listContainer = document.getElementById('homepageList');
 const APIUrl = 'https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/J8Ya3HGGvBBaT8zGxBGx/likes';
 
+// eslint-disable-next-line no-unused-vars
 const getLikes = async (id) => {
   const likesList = await fetch(APIUrl);
   const likesObject = await likesList.json();
@@ -40,5 +41,5 @@ const populateList = async (category) => {
 
 export default populateList;
 
-
-// ${likesCount} likes <a class='likeBtn' id='${itemList[i].idMeal}'><i class='far fa-grin-hearts fs-4 like-icon transition-all'
+// ${likesCount} likes <a class='likeBtn' id='${itemList[i].idMeal}'>
+// <i class='far fa-grin-hearts fs-4 like-icon transition-all'
