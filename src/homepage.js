@@ -29,7 +29,7 @@ const populateList = async (category) => {
             <p class='like-items'><i class='fas fa-heart'></i></p>
           </div>
         </div>
-        <button class='meal-button' type='button' name='Comments'>Comments</button>
+        <button class='meal-button commentBtn' id='itemList[i].idMeal' type='button' name='Comments'>Comments</button>
         <button class='meal-button' type='button' name='Reservation'>Reservation</button>
       </div>`;
     }
