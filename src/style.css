@@ -14,12 +14,12 @@ Dark Orange : #f07167
 /* importing font Roboto */
 @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300&family=Roboto+Slab:wght@700&display=swap');
 
-body {
+.body {
   background-color: #0081a7;
   margin: 0;
 }
 
-nav {
+.nav {
   display: flex;
   padding: 1em 10em 1em 10em;
   justify-content: space-evenly;
@@ -30,7 +30,7 @@ nav {
   width: 2.5em;
 }
 
-a {
+.nav a {
   text-decoration: none;
   font-size: 1.3em;
   color: #fed9b7;
@@ -40,10 +40,61 @@ a:hover {
   color: #f07167;
 }
 
+.meals-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  color: #f07167;
+  font-size: 2em;
+}
+
+.meals-display {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.fav-meal {
+  display: flex;
+  flex-direction: column;
+  margin: 1em;
+}
+
+.meal-image {
+  width: 15em;
+  height: 15em;
+  object-fit: cover;
+}
+
+.meal-title {
+  color: #fdfcdc;
+  font-size: 1em;
+  text-align: center;
+  padding-top: 1em;
+}
+
+.meal-button {
+  background-color: #fed9b7;
+  border: 1px solid #f07167;
+  border-radius: 10px;
+  padding: 5px 0;
+  margin: 5px 20px;
+  color: #f07167;
+  font-size: 0.8em;
+}
+
+.meal-button:hover {
+  background-color: #f07167;
+  border: 1px solid #fed9b7;
+  color: #fed9b7;
+}
+
 .footer {
   background-color: #00afb9;
   position: absolute;
-  bottom: 0;
   width: 100%;
 }
 
