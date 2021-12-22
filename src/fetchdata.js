@@ -1,8 +1,11 @@
-const fetchDataApi = () => {
-
+const fetchDataApi = async (category) => {
+  // const url = `https://www.themealdb.com/api/json/v1/1/filter.php?c=${category}`;
+  // const response = await fetch(url);
+  // const parsed = await response.json();
+  // return parsed.meals;
   fetch('https://www.themealdb.com/api/json/v1/1/filter.php?c=Seafood')
     .then(response => response.json())
-    .then(data => console.log(data));
+    .then(json => console.log(json));
 };
 
-export default fetchDataApi;
+export default fetchDataApi();
