@@ -17,7 +17,7 @@ const populateList = async (category) => {
   }
   // footer.classList.remove('d-none');
   // footer.classList.add('d-md-flex');
-  addLikes();
+  // addLikes();
 };
 
 export default populateList;

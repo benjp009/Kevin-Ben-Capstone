@@ -20,4 +20,4 @@ const createList = async (category) => {
   return list;
 };
 
-  export default createList;
+export default createList;
