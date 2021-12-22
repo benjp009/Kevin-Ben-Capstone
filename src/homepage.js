@@ -1,6 +1,6 @@
 import createList from './homePageRequest.js';
 
-// const listContainer = document.getElementById('homepageList');
+const listContainer = document.getElementById('homepageList');
 const APIUrl = 'https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/J8Ya3HGGvBBaT8zGxBGx/likes';
 
 // eslint-disable-next-line no-unused-vars
@@ -25,7 +25,7 @@ const populateList = async (category) => {
         <div>
           <h2 class='meal-title'>${itemList[i].strMeal}</h2>
           <div class='meal-likes'>
-            <p class='like-items'>likes<p>
+            <p class='like-items likeBtn' id='${itemList[i].idMeal}'> likes<p>
             <p class='like-items'><i class='fas fa-heart'></i></p>
           </div>
         </div>
@@ -34,9 +34,7 @@ const populateList = async (category) => {
       </div>`;
     }
   }
-  // footer.classList.remove('d-none');
-  // footer.classList.add('d-md-flex');
-  // addLikes();
+  addLikes();
 };
 
 export default populateList;
