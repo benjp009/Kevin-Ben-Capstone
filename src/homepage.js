@@ -26,7 +26,7 @@ const itemList = [
 // itemList.push(fetchDataApi());
 // const itemParsed = JSON.parse(itemList);
 
-for (let i = 0; i < itemList.length; i++) {
+for (let i = 0; i < itemList.length; i+= 1) {
   document.getElementById('homepageList').innerHTML += `
   <div class='fav-meal'>
     <img class='meal-image' src='${itemList[i].strMealThumb}' alt=''>
