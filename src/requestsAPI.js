@@ -17,4 +17,4 @@ const createList = async () => {
   console.log(list);
 };
 
-export default { createList, getCategory };
+// export default { createList, getCategory };
