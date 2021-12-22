@@ -1,6 +1,6 @@
 import createList from './homePageRequest.js';
 
-const listContainer = document.getElementById('homepageList');
+// const listContainer = document.getElementById('homepageList');
 
 const populateList = async (category) => {
   const itemList = await createList(category);
@@ -15,8 +15,8 @@ const populateList = async (category) => {
       </div>`;
     }
   }
-  footer.classList.remove('d-none');
-  footer.classList.add('d-md-flex');
+  // footer.classList.remove('d-none');
+  // footer.classList.add('d-md-flex');
   addLikes();
 };
 
