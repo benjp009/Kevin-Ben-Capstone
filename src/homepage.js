@@ -83,4 +83,3 @@ const populateList = async (category) => {
 };
 
 export default populateList;
-

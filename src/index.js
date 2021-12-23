@@ -2,8 +2,6 @@ import './style.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import createModal from './modalCreation.js';
 import populateList from './homepage.js';
-import displayCount from './itemscount.js';
-
 // eslint-disable-next-line no-unused-vars
 import displayCount from './itemscount.js';
 

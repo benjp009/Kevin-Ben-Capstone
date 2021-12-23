@@ -5,5 +5,5 @@ const displayCount = async (element, count) => {
   element.innerText = `${element.id} ${count}`;
   return count;
 };
-  
+
 export default displayCount;
