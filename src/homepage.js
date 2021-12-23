@@ -53,6 +53,7 @@ const populateList = async (category) => {
       listInnerDiv.classList.add('inner-div');
       listDiv.appendChild(listInnerDiv);
 
+      // meal title
       const listH2 = document.createElement('h2');
       listH2.classList.add('meal-title');
       listH2.innerText = itemList[i].strMeal;
@@ -71,17 +72,14 @@ const populateList = async (category) => {
       });
       listSecondDiv.appendChild(itemsLikeCount);
 
+      // comments button
       const commentButton = document.createElement('button');
       commentButton.classList.add('meal-button');
       commentButton.innerHTML = 'Comments';
       listDiv.appendChild(commentButton);
-
     }
   }
   addLikes();
 };
 
 export default populateList;
-
-// ${likesCount} likes <a class='likeBtn' id='${itemList[i].idMeal}'>
-// <i class='far fa-grin-hearts fs-4 like-icon transition-all'
