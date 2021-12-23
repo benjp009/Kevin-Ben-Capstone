@@ -65,10 +65,10 @@ const populateList = async (category) => {
       const itemsLikeCount = document.createElement('p');
       itemsLikeCount.classList.add('like-items');
       itemsLikeCount.setAttribute('id', itemList[i].idMeal);
-        // eslint-disable-next-line no-await-in-loop
-        await getLikes(itemList[i].idMeal).then((likesCount) => {
-          itemsLikeCount.innerHTML = `${likesCount} likes <a class="like-items like-button likeBtn" id="${itemList[i].idMeal}"><i class='fas fa-heart'></i></a>`;
-        });
+      // eslint-disable-next-line no-await-in-loop
+      await getLikes(itemList[i].idMeal).then((likesCount) => {
+        itemsLikeCount.innerHTML = `${likesCount} likes <a class="like-items like-button likeBtn" id="${itemList[i].idMeal}"><i class='fas fa-heart'></i></a>`;
+      });
       listSecondDiv.appendChild(itemsLikeCount);
 
       const commentButton = document.createElement('button');

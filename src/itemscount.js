@@ -6,4 +6,4 @@ const displayCount = async (element, count) => {
   return count;
 };
 
-  export default displayCount;
+export default displayCount;
