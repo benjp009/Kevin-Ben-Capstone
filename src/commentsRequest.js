@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 const getItem = async (id) => {
   const url = (`https://www.themealdb.com/api/json/v1/1/lookup.php?i=${id}`);
   const response = await fetch(url);
@@ -20,7 +21,7 @@ const commentCounter = async (id) => {
   if (commentList.length === undefined) {
     return 0;
   }
-  
+
   if (commentList === Error) {
     return 0;
   }
