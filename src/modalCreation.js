@@ -162,7 +162,7 @@ const createModal = async (id) => {
       },
     });
     modalCommentList.innerHTML = '';
-    // createComments();
+    createComments();
     createCommentsNumber(commentTitle, id);
     nameInput.value = '';
     commentInput.value = '';
