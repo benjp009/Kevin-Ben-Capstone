@@ -83,6 +83,3 @@ const populateList = async (category) => {
 };
 
 export default populateList;
-
-// ${likesCount} likes <a class='likeBtn' id='${itemList[i].idMeal}'>
-// <i class='far fa-grin-hearts fs-4 like-icon transition-all'

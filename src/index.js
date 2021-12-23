@@ -32,13 +32,13 @@ categories.forEach((e) => {
       }
     });
     await commentBtnEvent(e.id);
-    // displayCount(e, listContainer.children.length);
+    displayCount(e, listContainer.children.length);
   });
 });
 
 const firstPopulate = async () => {
   await commentBtnEvent('Dessert');
-  // displayCount(categories[0], listContainer.children.length);
+  displayCount(categories[0], listContainer.children.length);
 };
 
 firstPopulate();
