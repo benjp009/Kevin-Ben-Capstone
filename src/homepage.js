@@ -30,7 +30,6 @@ const addLikes = async () => {
       });
       const newLikesP = document.getElementById(e.id);
       getLikes(e.id).then((likesCount) => {
-        console.log(`${likesCount} likes`)
         newLikesP.innerHTML = `${likesCount} likes <a class="likeBtn" id="${e.id}"><i class="far fa-grin-hearts fs-4 like-icon-clicked"></i></a>`;
       });
     });
@@ -42,39 +41,40 @@ const populateList = async (category) => {
   for (let i = 0; i < itemList.length; i += 1) {
     if (itemList[i].strMealThumb !== undefined && itemList[i].strMealThumb !== null) {
       const listDiv = document.createElement('div');
-        listDiv.classList.add('fav-meal');
-        listContainer.appendChild(listDiv);
+      listDiv.classList.add('fav-meal');
+      listContainer.appendChild(listDiv);
 
-        const listImg = document.createElement('img');
-        listImg.setAttribute('src', itemList[i].strMealThumb);
-        listImg.classList.add('meal-image');
-        listDiv.appendChild(listImg);
+      const listImg = document.createElement('img');
+      listImg.setAttribute('src', itemList[i].strMealThumb);
+      listImg.classList.add('meal-image');
+      listDiv.appendChild(listImg);
 
-        const listInnerDiv = document.createElement('div');
-        listInnerDiv.classList.add('inner-div');
-        listDiv.appendChild(listInnerDiv);
+      const listInnerDiv = document.createElement('div');
+      listInnerDiv.classList.add('inner-div');
+      listDiv.appendChild(listInnerDiv);
 
-        const listH2 = document.createElement('h2');
-        listH2.classList.add('meal-title');
-        listH2.innerText = itemList[i].strMeal;
-        listInnerDiv.appendChild(listH2);
+      const listH2 = document.createElement('h2');
+      listH2.classList.add('meal-title');
+      listH2.innerText = itemList[i].strMeal;
+      listInnerDiv.appendChild(listH2);
 
-        const listSecondDiv = document.createElement('div');
-        listSecondDiv.classList.add('meal-likes');
-        listInnerDiv.appendChild(listSecondDiv);
+      const listSecondDiv = document.createElement('div');
+      listSecondDiv.classList.add('meal-likes');
+      listInnerDiv.appendChild(listSecondDiv);
 
-        const itemsLikeCount = document.createElement('p');
-        itemsLikeCount.classList.add('like-items');
-        itemsLikeCount.setAttribute('id', itemList[i].idMeal);
+      const itemsLikeCount = document.createElement('p');
+      itemsLikeCount.classList.add('like-items');
+      itemsLikeCount.setAttribute('id', itemList[i].idMeal);
+        // eslint-disable-next-line no-await-in-loop
         await getLikes(itemList[i].idMeal).then((likesCount) => {
           itemsLikeCount.innerHTML = `${likesCount} likes <a class="like-items like-button likeBtn" id="${itemList[i].idMeal}"><i class='fas fa-heart'></i></a>`;
         });
-        listSecondDiv.appendChild(itemsLikeCount);
+      listSecondDiv.appendChild(itemsLikeCount);
 
-        const commentButton = document.createElement('button');
-        commentButton.classList.add('meal-button');
-        commentButton.innerHTML = 'Comments';
-        listDiv.appendChild(commentButton);
+      const commentButton = document.createElement('button');
+      commentButton.classList.add('meal-button');
+      commentButton.innerHTML = 'Comments';
+      listDiv.appendChild(commentButton);
     }
   }
   addLikes();
