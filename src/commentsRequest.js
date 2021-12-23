@@ -5,7 +5,7 @@ const getItem = async (id) => {
   const parsed = await response.json();
   return parsed.meals[0];
 };
-  
+
 /*
 const getComments = async (id) => {
   const comments = `https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/J8Ya3HGGvBBaT8zGxBGx/comments?item_id=${id}`;
@@ -14,7 +14,7 @@ const getComments = async (id) => {
   return result;
 };
 */
-  
+
 /*
 const commentCounter = async (id) => {
   const commentList = await getComments(id);
