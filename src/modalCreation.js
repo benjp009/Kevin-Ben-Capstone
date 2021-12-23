@@ -120,7 +120,6 @@ const createModal = async (id) => {
   };
   createComments();
 
-
   const modalCommentForm = document.createElement('div');
   modalCommentForm.classList.add('modal-comment');
   modalContent.appendChild(modalCommentForm);
