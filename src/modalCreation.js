@@ -102,7 +102,6 @@ const createModal = async (id) => {
   modalCommentList.classList.add('modal-comment-list');
   modalCommentsDiv.append(modalCommentList);
 
-  /**
   const createComments = async () => {
     const comments = await getComments(id);
     if (comments.error) {
@@ -120,7 +119,7 @@ const createModal = async (id) => {
     }
   };
   createComments();
-  */
+
 
   const modalCommentForm = document.createElement('div');
   modalCommentForm.classList.add('modal-comment');
