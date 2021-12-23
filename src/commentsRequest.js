@@ -28,6 +28,6 @@ const commentCounter = async (id) => {
 
   return commentList.length;
 };
-  
+
 export { getItem as default, getComments, commentCounter };
 */
