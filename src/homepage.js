@@ -77,7 +77,6 @@ const populateList = async (category) => {
       commentButton.classList.add('meal-button');
       commentButton.innerHTML = 'Comments';
       listDiv.appendChild(commentButton);
-
     }
   }
   addLikes();
