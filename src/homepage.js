@@ -53,7 +53,7 @@ const populateList = async (category) => {
       listInnerDiv.classList.add('inner-div');
       listDiv.appendChild(listInnerDiv);
 
-      //meal title
+      // meal title
       const listH2 = document.createElement('h2');
       listH2.classList.add('meal-title');
       listH2.innerText = itemList[i].strMeal;
@@ -77,6 +77,7 @@ const populateList = async (category) => {
       commentButton.classList.add('meal-button');
       commentButton.innerHTML = 'Comments';
       listDiv.appendChild(commentButton);
+      
     }
   }
   addLikes();
