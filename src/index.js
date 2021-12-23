@@ -7,6 +7,9 @@ import html from './index.html';
 // eslint-disable-next-line no-unused-vars
 import populateList from './homepage.js';
 
+// eslint-disable-next-line no-unused-vars
+import displayCount from './itemscount.js';
+
 const categories = document.querySelectorAll('.navCategories');
 const listContainer = document.getElementById('homepageList');
 

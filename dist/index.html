@@ -5,22 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kevin & Ben's Capstone</title>
 <script defer src="main.js"></script></head>
-<body>
+<body class="body">
   <header>
-    <nav>
+    <nav class="nav">
       <img class="nav-logo" id="logo" src="77ecfbd07a0d85cbf0e9.png" alt="Project Logo">
-      <a href="#meals">Meals(6)</a>
-      <a href="#planets">Planets</a>
-      <a href="#races">Races</a>
+      <a class="active link transition-all navCategories" aria-current="page" href="#" id="Dessert">Dessert</a>
+      <a class="active link transition-all navCategories" aria-current="page" href="#" id="Side">Side</a>
+      <a class="active link transition-all navCategories" aria-current="page" href="#" id="Starter">Starter</a>
+      <a class="active link  transition-all navCategories" aria-current="page" href="#" id="Breakfast">Breakfast</a>
     </nav>
   </header>
     <section id="meals" class="meals-section">
-      <h1 class="title">Favorite meals</h1>
       <div class="meals-display homepageList" id="homepageList">
 
       </div>
 
     </section>
+    <div class="my-modal-none" id="modalDiv">
+    </div>
     <footer class="footer">
       <div class="credits">
         <p class="">Created by Benjamin & Kevin under the CC License</p>
