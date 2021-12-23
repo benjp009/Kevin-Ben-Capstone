@@ -36,7 +36,7 @@ Dark Orange : #f07167
   color: #fed9b7;
 }
 
-a:hover {
+.nav a:hover {
   color: #f07167;
 }
 
@@ -74,6 +74,18 @@ a:hover {
   font-size: 1em;
   text-align: center;
   padding-top: 1em;
+}
+
+.meal-likes {
+  display: flex;
+  justify-content: space-around;
+}
+
+.like-items {
+  margin: 0 0.5em;
+  color: #f07167;
+  font-size: 18px;
+  font-weight: bold;
 }
 
 .meal-button {
