@@ -6,6 +6,7 @@ const getItem = async (id) => {
   return parsed.meals[0];
 };
 
+// eslint-disable-next-line no-unused-vars
 const getComments = async (id) => {
   const comments = `https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/J8Ya3HGGvBBaT8zGxBGx/comments?item_id=${id}`;
   const response = await fetch(comments);
