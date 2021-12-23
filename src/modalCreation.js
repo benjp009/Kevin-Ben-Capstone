@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 import getItem, { commentCounter, getComments } from './commentsRequest.js';
 
 const modalDiv = document.getElementById('modalDiv');
@@ -160,7 +161,7 @@ const createModal = async (id) => {
       },
     });
     modalCommentList.innerHTML = '';
-    createComments();
+    // createComments();
     createCommentsNumber(commentTitle, id);
     nameInput.value = '';
     commentInput.value = '';

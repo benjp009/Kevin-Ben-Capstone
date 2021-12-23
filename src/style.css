@@ -92,7 +92,10 @@ Dark Orange : #f07167
   font-weight: bold;
 }
 
-/*
+.like-button:hover {
+  color: #fed9b7;
+}
+
 .meal-button {
   background-color: #fed9b7;
   border: 1px solid #f07167;
