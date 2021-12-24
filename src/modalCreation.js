@@ -1,4 +1,3 @@
-// eslint-disable-next-line no-unused-vars
 import getItem, { commentCounter, getComments } from './commentsRequest.js';
 
 const modalDiv = document.getElementById('modalDiv');
