@@ -4,6 +4,7 @@
 
 The project has for goal to show our knowledge of HTML, CSS, and JavaScript when creating a web app.
 
+
 ![presentation page](https://user-images.githubusercontent.com/31847346/147341891-9eed151b-8cb9-4689-b95c-8a042cf1eff6.png)
 
 ## Features
@@ -19,7 +20,6 @@ The project has for goal to show our knowledge of HTML, CSS, and JavaScript when
 ![Counter 1](https://user-images.githubusercontent.com/31847346/147342217-b0c3ae63-fbac-4b8d-b719-dde920df94c7.png)
 ![Counter 2](https://user-images.githubusercontent.com/31847346/147342243-c2a0526b-e8be-468f-a929-d7f725c9a6e2.png)
 
-
 ## Built With
 
 - HTML
@@ -28,6 +28,7 @@ The project has for goal to show our knowledge of HTML, CSS, and JavaScript when
 - JavaScript
 - Webpack
 - Jest
+- Gitflow 
 
 ## Getting Started
 To get a local copy up and running, follow the steps in Setup below.
