@@ -1,12 +1,8 @@
 import './style.css';
+import './queries.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
-// eslint-disable-next-line no-unused-vars
-import html from './index.html';
-
-// eslint-disable-next-line no-unused-vars
+import createModal from './modalCreation.js';
 import populateList from './homepage.js';
-
 // eslint-disable-next-line no-unused-vars
 import displayCount from './itemscount.js';
 
@@ -18,7 +14,7 @@ const commentBtnEvent = async (category) => {
   const commentBtns = document.querySelectorAll('.commentBtn');
   commentBtns.forEach((e) => {
     e.addEventListener('click', () => {
-      // createModal(e.id);
+      createModal(e.id);
     });
   });
 };
