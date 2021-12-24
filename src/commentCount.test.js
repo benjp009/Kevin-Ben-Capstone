@@ -7,7 +7,7 @@ beforeAll(() => {
     json: () => Promise.resolve([
       {
         comment: 'I did it like three times',
-        creation_date: '2021-08-03',
+        creation_date: '2021-12-24',
         username: 'Kevin',
       },
     ]),
@@ -28,17 +28,17 @@ test('It counts the right number of comments1', async () => {
     json: () => Promise.resolve([
       {
         comment: 'I did it like three times',
-        creation_date: '2021-08-03',
+        creation_date: '2021-12-24',
         username: 'Kevin',
       },
       {
         comment: 'I did it like three times',
-        creation_date: '2021-08-03',
+        creation_date: '2021-12-24',
         username: 'Kevin',
       },
       {
         comment: 'I did it like three times',
-        creation_date: '2021-08-03',
+        creation_date: '2021-12-24',
         username: 'Kevin',
       },
     ]),
