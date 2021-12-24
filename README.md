@@ -4,7 +4,21 @@
 
 The project has for goal to show our knowledge of HTML, CSS, and JavaScript when creating a web app.
 
-![Screenshot 2021-12-17 at 13 16 57](https://user-images.githubusercontent.com/31847346/146544313-f7b0d6b1-872a-48f8-b248-9ad9530d6950.png)
+![presentation page](https://user-images.githubusercontent.com/31847346/147341891-9eed151b-8cb9-4689-b95c-8a042cf1eff6.png)
+
+## Features
+
+1. Add likes to each items 
+![Add likes](https://user-images.githubusercontent.com/31847346/147341982-9afcf67b-7233-4f03-bdc4-baed0e57115f.png)
+
+2. Open a popup & add comments  for each items 
+![Open popup](https://user-images.githubusercontent.com/31847346/147342115-d613a0ab-e1c6-49f2-ae17-63c07b12e3f8.png)
+
+3. Count number of items per category 
+
+![Screenshot 2021-12-24 at 10 52 59](https://user-images.githubusercontent.com/31847346/147342217-b0c3ae63-fbac-4b8d-b719-dde920df94c7.png)
+![Screenshot 2021-12-24 at 10 53 13](https://user-images.githubusercontent.com/31847346/147342243-c2a0526b-e8be-468f-a929-d7f725c9a6e2.png)
+
 
 ## Built With
 
