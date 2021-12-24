@@ -93,24 +93,24 @@ Dark Orange : #f07167
 }
 
 .commentBtn {
-  background-color: #322d4e;
+  background-color: #f07167;
   color: #eff6e0;
   text-decoration: none;
   padding: 10px;
   border-radius: 5px;
+  border: none;
   margin-bottom: 5px;
-  box-shadow: 3px 4px 4px grey;
-  transition: all 0.7s;
+  transition: all 0.5s;
 }
 
 .commentBtn:hover {
-  background-color: #725ac1;
-  color: #eff6e0;
+  background-color: #fed9b7;
+  color: #f07167;
   cursor: pointer;
 }
 
 .commentBtn:active {
-  background-color: #54428f;
+  background-color: #fed9b7;
   box-shadow: inset 2px 2px 2px black;
 }
 
@@ -151,7 +151,7 @@ Dark Orange : #f07167
 .my-modal-content {
   width: 50%;
   height: 80vh;
-  background-color: #322d4e;
+  background-color: #f07167;
   margin: 100px auto;
   position: relative;
   border-radius: 5px;
@@ -165,7 +165,7 @@ Dark Orange : #f07167
     transform: translateY(100%);
     transform: scale(0.3);
     opacity: 0;
-    background-color: #725ac1;
+    background-color: #f07167;
   }
 
   20% {
@@ -175,11 +175,11 @@ Dark Orange : #f07167
   }
 
   70% {
-    background-color: #4a5899;
+    background-color: #f07167;
   }
 
   100% {
-    background-color: #322d4e;
+    background-color: #fed9f07167b7;
   }
 }
 
@@ -283,23 +283,24 @@ Dark Orange : #f07167
   width: 25%;
   font-weight: bold;
   margin: 15px auto 20px;
-  border-radius: 10px;
+  border-radius: 5px;
   border: 1px solid rgba(0, 0, 0, 0.699);
-  box-shadow: 3px 5px 4px black;
-  background-color: rgba(241, 241, 241, 1);
+  background-color: #0081a7;
+  color: #fdfcdc;
+  text-decoration: none;
+  padding: 10px;
+  border: none;
+  transition: all 0.5s;
 }
 
 .submit-btn:hover {
-  background-color: white;
-  border: 1px solid #725ac1;
-  color: #725ac1;
+  background-color: #00afb9;
+  color: #fdfcdc;
 }
 
 .submit-btn:focus {
-  background-color: lightgray;
-  border: 1px solid #725ac1;
-  color: #725ac1;
-  box-shadow: inset 2px 2px 2px black;
+  background-color: 00afb9;
+  color: #fdfcdc;
 }
 
 .transition-all {
