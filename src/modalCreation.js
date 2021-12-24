@@ -148,7 +148,7 @@ const createModal = async (id) => {
   modalCommentForm.appendChild(submitBtn);
 
   submitBtn.addEventListener('click', async () => {
-    const postComments = 'https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/J8Ya3HGGvBBaT8zGxBGx/comments';
+    const postComments = 'https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/CVaLr6sS56kNNWk2skXY/comments';
     await fetch(postComments, {
       method: 'POST',
       body: JSON.stringify({
@@ -161,7 +161,7 @@ const createModal = async (id) => {
       },
     });
     modalCommentList.innerHTML = '';
-    // createComments();
+    createComments();
     createCommentsNumber(commentTitle, id);
     nameInput.value = '';
     commentInput.value = '';

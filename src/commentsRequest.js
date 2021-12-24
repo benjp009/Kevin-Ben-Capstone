@@ -7,7 +7,7 @@ const getItem = async (id) => {
 };
 
 const getComments = async (id) => {
-  const comments = `https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/J8Ya3HGGvBBaT8zGxBGx/comments?item_id=${id}`;
+  const comments = `https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/CVaLr6sS56kNNWk2skXY/comments?item_id=${id}`;
   const response = await fetch(comments);
   const result = await response.json();
   return result;

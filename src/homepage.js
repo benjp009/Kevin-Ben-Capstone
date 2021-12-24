@@ -1,7 +1,7 @@
 import createList from './homePageRequest.js';
 
 const listContainer = document.getElementById('homepageList');
-const APIUrl = 'https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/J8Ya3HGGvBBaT8zGxBGx/likes';
+const APIUrl = 'https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/CVaLr6sS56kNNWk2skXY/likes';
 
 // eslint-disable-next-line no-unused-vars
 const getLikes = async (id) => {
