@@ -6,16 +6,14 @@ const getItem = async (id) => {
   return parsed.meals[0];
 };
 
-/*
+
 const getComments = async (id) => {
   const comments = `https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/J8Ya3HGGvBBaT8zGxBGx/comments?item_id=${id}`;
   const response = await fetch(comments);
   const result = await response.json();
   return result;
 };
-*/
 
-/*
 const commentCounter = async (id) => {
   const commentList = await getComments(id);
   if (commentList.length === undefined) {
@@ -30,4 +28,3 @@ const commentCounter = async (id) => {
 };
 
 export { getItem as default, getComments, commentCounter };
-*/

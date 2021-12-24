@@ -19,10 +19,6 @@ Dark Orange : #f07167
   margin: 0;
 }
 
-.no-overflow {
-  overflow: hidden;
-}
-
 .nav {
   display: flex;
   padding: 1em 10em 1em 10em;
@@ -95,23 +91,6 @@ Dark Orange : #f07167
 .like-button:hover {
   color: #fed9b7;
 }
-
-.meal-button {
-  background-color: #fed9b7;
-  border: 1px solid #f07167;
-  border-radius: 10px;
-  padding: 5px 0;
-  margin: 5px 20px;
-  color: #f07167;
-  font-size: 0.8em;
-}
-
-.meal-button:hover {
-  background-color: #f07167;
-  border: 1px solid #fed9b7;
-  color: #fed9b7;
-}
-*/
 
 .commentBtn {
   background-color: #322d4e;
