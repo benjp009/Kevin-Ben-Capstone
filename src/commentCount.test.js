@@ -6,7 +6,7 @@ beforeAll(() => {
   global.fetch = () => Promise.resolve({
     json: () => Promise.resolve([
       {
-        comment: 'I did it like three times',
+        comment: 'I did thrice',
         creation_date: '2021-12-24',
         username: 'Kevin',
       },
@@ -27,17 +27,17 @@ test('It counts the right number of comments1', async () => {
   global.fetch = () => Promise.resolve({
     json: () => Promise.resolve([
       {
-        comment: 'I did it like three times',
+        comment: 'I did it thrice',
         creation_date: '2021-12-24',
         username: 'Kevin',
       },
       {
-        comment: 'I did it like three times',
+        comment: 'I did it thrice',
         creation_date: '2021-12-24',
         username: 'Kevin',
       },
       {
-        comment: 'I did it like three times',
+        comment: 'I did it thrice',
         creation_date: '2021-12-24',
         username: 'Kevin',
       },
