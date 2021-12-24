@@ -30,7 +30,7 @@ const addLikes = async () => {
       });
       const newLikesP = document.getElementById(e.id);
       getLikes(e.id).then((likesCount) => {
-        newLikesP.innerHTML = `${likesCount} likes <a class="likeBtn" id="${e.id}"><i class="far fa-grin-hearts fs-4 like-icon-clicked"></i></a>`;
+        newLikesP.innerHTML = `${likesCount} likes <a class="likeBtn" id="${e.id}"><i class="fas fa-heart fs-4 like-icon-clicked heart-clicked"></i></a>`;
       });
     });
   });
