@@ -16,8 +16,8 @@ The project has for goal to show our knowledge of HTML, CSS, and JavaScript when
 
 3. Count number of items per category <br>
 
-![Screenshot 2021-12-24 at 10 52 59](https://user-images.githubusercontent.com/31847346/147342217-b0c3ae63-fbac-4b8d-b719-dde920df94c7.png)
-![Screenshot 2021-12-24 at 10 53 13](https://user-images.githubusercontent.com/31847346/147342243-c2a0526b-e8be-468f-a929-d7f725c9a6e2.png)
+![Counter 1](https://user-images.githubusercontent.com/31847346/147342217-b0c3ae63-fbac-4b8d-b719-dde920df94c7.png)
+![Counter 2](https://user-images.githubusercontent.com/31847346/147342243-c2a0526b-e8be-468f-a929-d7f725c9a6e2.png)
 
 
 ## Built With
