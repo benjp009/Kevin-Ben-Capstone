@@ -20,7 +20,10 @@
   },
   "homepage": "https://github.com/benjp009/Kevin-Ben-Capstone#readme",
   "devDependencies": {
+    "@babel/core": "^7.16.5",
+    "@babel/preset-env": "^7.16.5",
     "@fortawesome/fontawesome-free": "^5.15.4",
+    "babel-jest": "^27.4.5",
     "css-loader": "^6.5.1",
     "file-loader": "^6.2.0",
     "html-loader": "^3.0.1",
