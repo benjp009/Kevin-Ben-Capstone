@@ -8,7 +8,5 @@ test('display itemscount on categories', done => {
       done(error);
     }
   }
-
   commentBtnEvent('12');
-
 });
