@@ -179,7 +179,7 @@ Dark Orange : #f07167
   }
 
   100% {
-    background-color: #fed9f07167b7;
+    background-color: #f07167;
   }
 }
 
@@ -284,7 +284,6 @@ Dark Orange : #f07167
   font-weight: bold;
   margin: 15px auto 20px;
   border-radius: 5px;
-  border: 1px solid rgba(0, 0, 0, 0.699);
   background-color: #0081a7;
   color: #fdfcdc;
   text-decoration: none;
@@ -299,7 +298,7 @@ Dark Orange : #f07167
 }
 
 .submit-btn:focus {
-  background-color: 00afb9;
+  background-color: #00afb9;
   color: #fdfcdc;
 }
 
