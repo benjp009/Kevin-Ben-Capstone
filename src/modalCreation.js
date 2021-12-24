@@ -16,7 +16,6 @@ const createCommentsNumber = async (domElement, id) => {
 const createModal = async (id) => {
   modalDiv.classList.remove('my-modal-none');
   modalDiv.classList.add('my-modal');
-  body.classList.add('no-overflow');
 
   const foodObject = await getItem(id);
   const image = foodObject.strMealThumb;

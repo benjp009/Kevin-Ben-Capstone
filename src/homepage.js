@@ -50,7 +50,9 @@ const populateList = async (category) => {
       listDiv.appendChild(listImg);
 
       const listInnerDiv = document.createElement('div');
-      listInnerDiv.classList.add('inner-div');
+
+      listInnerDiv.classList.add('card-body', 'mb-3', 'd-flex', 'flex-column', 'justify-content-between');
+
       listDiv.appendChild(listInnerDiv);
 
       // meal title
@@ -66,6 +68,7 @@ const populateList = async (category) => {
       const itemsLikeCount = document.createElement('p');
       itemsLikeCount.classList.add('like-items');
       itemsLikeCount.setAttribute('id', itemList[i].idMeal);
+
       // eslint-disable-next-line no-await-in-loop
       await getLikes(itemList[i].idMeal).then((likesCount) => {
         itemsLikeCount.innerHTML = `${likesCount} likes <a class="like-items like-button likeBtn" id="${itemList[i].idMeal}"><i class='fas fa-heart'></i></a>`;
@@ -74,9 +77,10 @@ const populateList = async (category) => {
 
       // comments button
       const commentButton = document.createElement('button');
-      commentButton.classList.add('meal-button');
+      commentButton.classList.add('commentBtn');
+      commentButton.setAttribute('id', itemList[i].idMeal);
       commentButton.innerHTML = 'Comments';
-      listDiv.appendChild(commentButton);
+      listInnerDiv.appendChild(commentButton);
     }
   }
   addLikes();
