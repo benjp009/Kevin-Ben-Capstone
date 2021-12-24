@@ -92,6 +92,11 @@ Dark Orange : #f07167
   color: #fed9b7;
 }
 
+.heart-clicked {
+  color: #fdfcdc;
+  font-size: 18px;
+}
+
 .commentBtn {
   background-color: #f07167;
   color: #eff6e0;
